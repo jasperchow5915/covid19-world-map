@@ -117,7 +117,7 @@ export const World = React.memo(function Map() {
       >
         {popupInfo && (
           <Popup lnglat={popupInfo.lnglat}>
-            {popupInfo.feature.name}
+            {/* {popupInfo.feature.name} */}
             <ul
               style={{
                 margin: 0,
